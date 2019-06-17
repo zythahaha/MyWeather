@@ -1,0 +1,10 @@
+<litepal>
+    <dbname value="my_weather"/>
+    <version value="1"/>
+    <list>
+        <mapping class="com.myweather.db.Province"/>
+        <mapping class="com.myweather.db.City"/>
+        <mapping class="com.myweather.db.County"/>
+    </list>
+    <!--这里将数据库名指定为my_weather，数据库版本指定为1，并将Province、City、County则三个实体类添加到映射列表中-->
+</litepal>
